@@ -1,5 +1,5 @@
 <?php
-   include '../app//libraries/Rota.php'; 
+include '../app/Libraries/Rota.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,10 +9,9 @@
     <title>Framework</title>
 </head>
 <body>
-    <?php
-
-    $rotas = new Rota();
-    //$rotas ->url();
-    ?>
+   <?php
+   $rotas = new Rota();
+   //$rotas->url();
+   ?>
 </body>
 </html>
