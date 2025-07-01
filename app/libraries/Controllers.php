@@ -10,7 +10,7 @@ class Controllers{
         if(file_exists($arquivo)){
             require_once $arquivo;
         }else{
-            die("O arquivo não existe");
+            die("O arquivo não existe kkk");
         }// fim do if
     }// fim do método view
 }//fim da classe Controllers

@@ -1,7 +1,7 @@
 <?php
     class Rota{
         private $controlador = 'Paginas';
-        private $metodo = 'index';
+        public $metodo = 'index';
         private $parametros = [];
 
         public function __construct(){
@@ -39,6 +39,3 @@
         }//fim da função url
     }//fim da classe Rota
 ?>
-
-c'mere
-c'mon
